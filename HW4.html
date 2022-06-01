@@ -1,0 +1,56 @@
+<html>
+<head>
+    <style>
+    .banner
+    {
+    padding-top: 300px;
+    width:100%;
+    height: 1440px;
+    background-repeat: no-repeat;
+    }
+    .form
+    {
+    padding: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -240px;
+    margin-top: -240px
+    }
+    input[type=text], input[type=password],input[type=date],input[type=password2] {
+    padding:10px 16px;
+    width:200px;
+    border-radius:5px;
+    border: 1px #cccccc solid;
+}
+.button
+{
+    padding: 6px 12px;
+    border:solid 1px;
+    border-radius: 10px;
+    border-color: #cccccc;
+    font-size: 16px;
+    background-color:white;
+
+}
+    </style>
+</head>
+<body>
+ <div class="banner">
+    <form>
+        <div class="form">
+            <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">註冊頁面</h2>
+            <p><input type="text"  name="name" value="" placeholder="姓名"></p>
+            <p><input type="date"  name="datemax" value=""></p>
+            <p><input type="text"  name="email" value="" placeholder="電子郵件"></p>
+            <p><input type="password"  name="password" value=""placeholder="請設立密碼"></p>
+            <p><input type="password"  name="password2" value=""placeholder="請確認密碼"></p>
+            <p><input type="checkbox" name="agree">我同意<a href="#">服務條款</a></p>
+            <button class="button">註冊</button>
+        </div>
+      </form>
+ </div>   
+
+
+</body>
+</html>
